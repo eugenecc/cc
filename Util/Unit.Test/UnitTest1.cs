@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Util;
 
 namespace Unit.Test
 {
@@ -9,6 +10,7 @@ namespace Unit.Test
         [TestMethod]
         public void TestMethod1()
         {
+            var result = ConvertHelper.NoHTML("</html>");
         }
     }
 }
