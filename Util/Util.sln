@@ -13,7 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Domain", "Util.Domain\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Domain.Test", "Util.Domain.Test\Util.Domain.Test.csproj", "{6DDA1767-9439-4ACC-AF1D-877FB6C63F0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Validations.EntLib", "Util.Validations.EntLib\Util.Validations.EntLib.csproj", "{C7E1DC9C-FB08-43F8-A081-DF37E4171908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Validations.EntLib.Tests", "Util.Validations.EntLib.Tests\Util.Validations.EntLib.Tests.csproj", "{830C4730-A217-4D10-86CB-449F234D0F86}"
+EndProject
 Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -35,6 +43,14 @@ Global
 		{6DDA1767-9439-4ACC-AF1D-877FB6C63F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DDA1767-9439-4ACC-AF1D-877FB6C63F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DDA1767-9439-4ACC-AF1D-877FB6C63F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E1DC9C-FB08-43F8-A081-DF37E4171908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E1DC9C-FB08-43F8-A081-DF37E4171908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E1DC9C-FB08-43F8-A081-DF37E4171908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E1DC9C-FB08-43F8-A081-DF37E4171908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830C4730-A217-4D10-86CB-449F234D0F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830C4730-A217-4D10-86CB-449F234D0F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830C4730-A217-4D10-86CB-449F234D0F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830C4730-A217-4D10-86CB-449F234D0F86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +58,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{33AA6B42-FFEF-4F2C-A7BD-9DF5F2367962} = {A91387A4-C29C-4AF8-9BF2-E1D985CFC17C}
 		{5681F2A5-BF9C-40F3-9432-00FEEF8EEBF1} = {A91387A4-C29C-4AF8-9BF2-E1D985CFC17C}
+		{C7E1DC9C-FB08-43F8-A081-DF37E4171908} = {A91387A4-C29C-4AF8-9BF2-E1D985CFC17C}
+		{830C4730-A217-4D10-86CB-449F234D0F86} = {A91387A4-C29C-4AF8-9BF2-E1D985CFC17C}
 		{11ACA5BA-F09E-49F9-8BAB-C2673C1BD809} = {940D205A-160D-4EDB-89F6-D0EBEFDD9ACE}
 		{6DDA1767-9439-4ACC-AF1D-877FB6C63F0C} = {940D205A-160D-4EDB-89F6-D0EBEFDD9ACE}
 	EndGlobalSection
