@@ -53,12 +53,6 @@ namespace Util.Validations
                 _results.AddRange(results);
         }
 
-
-        //IEnumerator<ValidationResult> IEnumerable<ValidationResult>.GetEnumerator()
-        //{
-        //    return _results.GetEnumerator();
-        //}
-
         /// <summary>
         /// 获取迭代器
         /// </summary>
