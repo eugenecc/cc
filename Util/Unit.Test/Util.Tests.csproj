@@ -6,8 +6,8 @@
     <ProjectGuid>{5681F2A5-BF9C-40F3-9432-00FEEF8EEBF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unit.Test</RootNamespace>
-    <AssemblyName>Unit.Test</AssemblyName>
+    <RootNamespace>Util.Tests</RootNamespace>
+    <AssemblyName>Util.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitConverTest.cs" />
+    <Compile Include="ConvertTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WarningTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Util\Util.csproj">
-      <Project>{33AA6B42-FFEF-4F2C-A7BD-9DF5F2367962}</Project>
+      <Project>{33aa6b42-ffef-4f2c-a7bd-9df5f2367962}</Project>
       <Name>Util</Name>
     </ProjectReference>
   </ItemGroup>

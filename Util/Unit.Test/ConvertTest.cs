@@ -1,8 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Util;
 
-namespace Util.Test
+namespace Util.Tests
 {
     /// <summary>
     /// 类型转换公共操作类测试

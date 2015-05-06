@@ -3,7 +3,7 @@ using System.Text;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Util.Logs;
 
-namespace Util.Test
+namespace Util.Tests
 {
     /// <summary>
     /// 应用程序异常测试
