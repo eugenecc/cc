@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="UnitConverTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WarningTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Util\Util.csproj">

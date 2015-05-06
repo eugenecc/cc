@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{940D20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{33AA6B42-FFEF-4F2C-A7BD-9DF5F2367962}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unit.Test", "Unit.Test\Unit.Test.csproj", "{5681F2A5-BF9C-40F3-9432-00FEEF8EEBF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Test", "Unit.Test\Util.Test.csproj", "{5681F2A5-BF9C-40F3-9432-00FEEF8EEBF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util.Domain", "Util.Domain\Util.Domain.csproj", "{11ACA5BA-F09E-49F9-8BAB-C2673C1BD809}"
 EndProject
